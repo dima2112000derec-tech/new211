@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Эвакуатор Одесса 24/7</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#111;
+color:white;
+}
+
+header{
+background:black;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#ffd000;
+font-size:24px;
+font-weight:bold;
+}
+
+.call-btn{
+background:#ffd000;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+position:relative;
+overflow:hidden;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.car{
+position:absolute;
+bottom:10px;
+left:-200px;
+font-size:60px;
+animation:drive 8s linear infinite;
+}
+
+@keyframes drive{
+0%{left:-200px;}
+100%{left:110%;}
+}
+
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:#1b1b1b;
+padding:25px;
+border-radius:10px;
+width:220px;
+}
+
+.price{
+font-size:28px;
+color:#ffd000;
+}
+
+.reviews{
+max-width:700px;
+margin:auto;
+}
+
+.review{
+background:#1b1b1b;
+padding:20px;
+border-radius:10px;
+margin:10px;
+}
+
+form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input,textarea{
+padding:12px;
+border:none;
+border-radius:6px;
+}
+
+button{
+background:#ffd000;
+border:none;
+padding:15px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.map{
+margin-top:40px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.floating-call{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#ffd000;
+color:black;
+font-size:24px;
+padding:18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 0 10px black;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🚚 Эвакуатор Одесса
+</div>
+
+<a href="tel:+380984582176" class="call-btn">📞 Позвонить</a>
+<a href="viber://chat?number=+380984582176" class="call-btn" style="background:#665CAC;">📲 Viber</a>
+
+</header>
+
+<div class="hero">
+
+<h1>Эвакуатор 24/7</h1>
+
+<p>Быстрая помощь на дороге по всей Одесской области</p>
+
+<div class="car">
+🚚
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Наши услуги</h2>
+
+<div class="cards">
+
+<div class="card">
+🚗 Перевозка авто
+</div>
+
+<div class="card">
+⚡ Срочный выезд
+</div>
+
+<div class="card">
+🛣 По всей области
+</div>
+
+<div class="card">
+🕐 Работаем 24/7
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Цены</h2>
+
+<div class="cards">
+
+<div class="card">
+<p>По городу</p>
+<p class="price">от 1500 грн</p>
+</div>
+
+<div class="card">
+<p>За город</p>
+<p class="price">от 50 грн/км</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Отзывы</h2>
+
+<div class="reviews">
+
+<div class="review">
+⭐️⭐️⭐️⭐️⭐️  
+Очень быстро приехали и помогли. Спасибо!
+</div>
+
+<div class="review">
+⭐️⭐️⭐️⭐️⭐️  
+Лучший эвакуатор тут и только тутНовая заявка с сайта
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Заказать эвакуатор</h2>
+
+<form>
+
+<input type="text" placeholder="Ваше имя">
+
+<input type="tel" placeholder="Телефон">
+
+<textarea placeholder="Где вы находитесь"></textarea>
+
+<button>
+Отправить заявку
+</button>
+
+</form>
+
+</div>
+
+<div class="section map">
+
+<h2>Мы на карте</h2>
+
+<iframe
+width="90%"
+height="300"
+style="border:0"
+loading="lazy"
+src="https://maps.google.com/maps?q=odessa&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+<footer>
+
+Эвакуатор Одесса • Телефон: 0984582176
+
+</footer>
+
+<a href="tel:+380984582176" class="floating-call">
+📞
+</a>
+
+</body>
+</html>
